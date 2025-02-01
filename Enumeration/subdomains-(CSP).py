@@ -1,3 +1,9 @@
+"""
+Subdomain enumeration subdomains from content security policy
+Allows administrator to specify which domains and subdomains are allowed to load contents 
+such as scripts, frame sources, and image sources, so on
+"""
+
 import requests
 import re
 import argparse
